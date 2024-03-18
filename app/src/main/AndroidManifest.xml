@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ClassLead"
         tools:targetApi="31">
         <activity
+            android:name=".secondaryactivity"
+            android:exported="false"
+            android:label="@string/title_activity_secondaryactivity"
+            android:theme="@style/Theme.ClassLead" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
